@@ -1,7 +1,7 @@
 import fs from 'fs'
 import type { Request, Response } from 'express'
 import { MAX_SIZE, uploadFileMiddleware } from '../middleware/upload'
-import { BASE_URL, FILE_TARGET } from '../../constant'
+import { BASE_URL, FILE_TARGET } from '../../config'
 
 const upload = async (req: Request, res: Response) => {
   try {

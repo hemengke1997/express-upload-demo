@@ -5,7 +5,7 @@ import url from 'url'
 import path from 'path'
 import fetch from 'node-fetch'
 import FormData from 'form-data'
-import { BASE_URL } from '../constant'
+import { BASE_URL } from '../config'
 
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 

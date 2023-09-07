@@ -2,7 +2,7 @@ import url from 'url'
 import cors from 'cors'
 import express from 'express'
 import initRoutes from './src/routes'
-import { PORT } from './constant'
+import { PORT } from './config'
 
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 

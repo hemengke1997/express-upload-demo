@@ -1,7 +1,7 @@
 import util from 'util'
 import multer from 'multer'
 import type { Request, Response } from 'express'
-import { FILE_TARGET, MAX_SIZE } from '../../constant'
+import { FILE_TARGET, MAX_SIZE } from '../../config'
 
 const maxSize = MAX_SIZE * 1024 * 1024
 
